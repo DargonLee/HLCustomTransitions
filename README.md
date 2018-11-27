@@ -26,7 +26,18 @@ pod 'HLCustomTransitions'
 ```
 
 ## Usage
+- 设置控制器尺寸
+```
+//在MineViewController中写
+- (void)viewWillLayoutSubviews
+{
+    //设置控制器显示的尺寸
+    self.view.frame = CGRectMake(0, 100, self.view.bounds.size.width, 500);
+}
 
+```
+
+- 使用专场动画
 ```
 //创建要model的控制器实例控制器对象
 MineViewController *mineVC = [[MineViewController alloc]init];
