@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HLCustomTransitions_Example' do
+  pod 'HLCustomTransitions', :path => '../'
+
+  target 'HLCustomTransitions_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

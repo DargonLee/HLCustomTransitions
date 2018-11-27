@@ -1,0 +1,16 @@
+PODS:
+  - HLCustomTransitions (0.1.0)
+
+DEPENDENCIES:
+  - HLCustomTransitions (from `../`)
+
+EXTERNAL SOURCES:
+  HLCustomTransitions:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HLCustomTransitions: 8b9be27fd3d2533d8efa2f6842aa634ea604bafc
+
+PODFILE CHECKSUM: 52e3f826e73218e6ba997deada31ed2edad4b329
+
+COCOAPODS: 1.5.3

@@ -1,0 +1,22 @@
+{
+  "name": "HLCustomTransitions",
+  "version": "0.1.0",
+  "summary": "A short description of HLCustomTransitions.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/2461414445@qq.com/HLCustomTransitions",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "2461414445@qq.com": "2461414445@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/2461414445@qq.com/HLCustomTransitions.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "HLCustomTransitions/Classes/**/*"
+}
