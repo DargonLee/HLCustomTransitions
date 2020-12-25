@@ -12,11 +12,14 @@
 #define CORNER_RADIUS   16.f
 
 @interface HLCustomPresentationController () <UIViewControllerAnimatedTransitioning>
-
+{
+    CGRect originFrame;
+}
 //半透明view
 @property (nonatomic, strong) UIView *dimmingView;
 
 @property (nonatomic,assign) UIPresentationControllerDirection direction;
+
 
 @end
 
@@ -244,10 +247,15 @@
     NSLog(@"point - %f", point.y);
     CGRect frame = self.presentedView.frame;
     switch (pan.state) {
-        case UIGestureRecognizerStateBegan:
+        case UIGestureRecognizerStateBegan: {
+            originFrame = self.presentedView.frame;
+        }
+            break;
         case UIGestureRecognizerStateChanged: {
-            frame.origin.y = point.y;
-            self.presentedView.frame = frame;
+            if (point.y > originFrame.origin.y) {
+                frame.origin.y = point.y;
+                self.presentedView.frame = frame;
+            }
         }
             break;
         case UIGestureRecognizerStateEnded:
@@ -259,7 +267,5 @@
         default: break;
     }
 }
-/*
 
- */
 @end
