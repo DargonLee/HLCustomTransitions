@@ -257,6 +257,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "2461414445@qq.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = CPL4GGWSTS;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -267,6 +270,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -309,21 +313,17 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-HLCustomTransitions_Example/Pods-HLCustomTransitions_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-HLCustomTransitions_Example/Pods-HLCustomTransitions_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/HLCustomTransitions/HLCustomTransitions.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HLCustomTransitions.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HLCustomTransitions_Example/Pods-HLCustomTransitions_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HLCustomTransitions_Example/Pods-HLCustomTransitions_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		2D6559E364A27129E282EA34 /* [CP] Check Pods Manifest.lock */ = {
@@ -509,11 +509,12 @@
 			baseConfigurationReference = A3150583FE2089D940DD6E30 /* Pods-HLCustomTransitions_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CPL4GGWSTS;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HLCustomTransitions/HLCustomTransitions-Prefix.pch";
 				INFOPLIST_FILE = "HLCustomTransitions/HLCustomTransitions-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ssoother.OtherApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -524,11 +525,12 @@
 			baseConfigurationReference = 247EE8CE212A09FB00E4DB52 /* Pods-HLCustomTransitions_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CPL4GGWSTS;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HLCustomTransitions/HLCustomTransitions-Prefix.pch";
 				INFOPLIST_FILE = "HLCustomTransitions/HLCustomTransitions-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ssoother.OtherApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

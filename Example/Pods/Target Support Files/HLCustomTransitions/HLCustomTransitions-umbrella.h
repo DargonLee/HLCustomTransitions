@@ -11,6 +11,7 @@
 #endif
 
 #import "HLCustomPresentationController.h"
+#import "HLIndicatorView.h"
 
 FOUNDATION_EXPORT double HLCustomTransitionsVersionNumber;
 FOUNDATION_EXPORT const unsigned char HLCustomTransitionsVersionString[];

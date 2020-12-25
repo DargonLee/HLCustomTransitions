@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  HLCustomTransitions: 8b9be27fd3d2533d8efa2f6842aa634ea604bafc
+  HLCustomTransitions: 54dab9ec0704e9d1e9ed4df52d1dffc4b80df13f
 
 PODFILE CHECKSUM: 52e3f826e73218e6ba997deada31ed2edad4b329
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.10.0

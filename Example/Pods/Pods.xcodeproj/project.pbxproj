@@ -7,268 +7,271 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0887D67C4E691EB748798E583ACEF33D /* Pods-HLCustomTransitions_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 549787897320F398EA5E1F19E8810C05 /* Pods-HLCustomTransitions_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0D0DFBDC719601E3DB5B5EC4529D6B5A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		1C1C968E3B20C06432F7B6010BB431AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		2423CD2378417BEA3CB85A0C9D6BBE07 /* Pods-HLCustomTransitions_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 533CFB06DA459AA321B834FB7A6AB81E /* Pods-HLCustomTransitions_Tests-dummy.m */; };
-		2E105F569F396683AB486AA1B7DC0AF1 /* HLCustomPresentationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E11891DD118C8FDC8549518BCE595FE0 /* HLCustomPresentationController.m */; };
-		5C0D5BB6AC9E9045C1AA5D099796A414 /* HLCustomTransitions-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CE301F55AAAA8D366514FB87D188BAC1 /* HLCustomTransitions-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		99073143C6F592CF3DE411CA531451DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		A2EBC579C6CF0823A565A9299E100AF0 /* Pods-HLCustomTransitions_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A91F9606E312FDE58F9ADC2C45D188 /* Pods-HLCustomTransitions_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AEE02FA50DAED00B3D2405019C3AB7B5 /* HLCustomPresentationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F66978B897929B3756C97B0E3624413 /* HLCustomPresentationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C0500C0FB9A78657D5B0C078A430834D /* HLCustomTransitions-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 49AED18A3D59721A32AB00497E2739EF /* HLCustomTransitions-dummy.m */; };
-		DC7EDD8385E4836AF12EE6A9DCF8972E /* Pods-HLCustomTransitions_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4587A772E5B2A4AC3BAB795D2625ECA3 /* Pods-HLCustomTransitions_Example-dummy.m */; };
+		0F8DD49F5FDE91F823E7458356393A00 /* Pods-HLCustomTransitions_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 74C3CF50D8C6E34E42D93E9EB2E414AD /* Pods-HLCustomTransitions_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10E30A6E8F0BC259DD9E9AAD6E4FC630 /* HLIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = 11AA3ABCB784BC46DFF2C38F3EC325C0 /* HLIndicatorView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		110ACA6C205F0A8574C7874A6A2DE325 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		13043E3227EF1D19DC044CFB3B1E8246 /* HLIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BD52EE9DDC489117C52411EA3928F5E /* HLIndicatorView.m */; };
+		22B5F45B49557E17BA614F94B66A1721 /* Pods-HLCustomTransitions_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BBB896B7170B30E095586F023B86BD9 /* Pods-HLCustomTransitions_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D3F9DD9BAD535CEAEDED0998555B526 /* HLCustomPresentationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AE4393A969DE64C6D8A1DF94835BAF9 /* HLCustomPresentationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E36F9E7FF81D79E64AF9FBF30DA3455 /* Pods-HLCustomTransitions_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F1AAC1E77E7747DB298E2F05B054EE87 /* Pods-HLCustomTransitions_Tests-dummy.m */; };
+		548A69D6F611C0B856ABDB219B443174 /* HLCustomPresentationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F64C1C34FA1BC273BA6A67EBCC62670 /* HLCustomPresentationController.m */; };
+		88EA767D4EEC2689F7EF801A19C6E1CF /* HLCustomTransitions-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C7521DFB07D9CB3960FC2356B2BFDAE1 /* HLCustomTransitions-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F8E622D67E5E71C77DC3D8E5FA1D75E /* Pods-HLCustomTransitions_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3DFA94E72D8B23C33386B8E1B7D253 /* Pods-HLCustomTransitions_Example-dummy.m */; };
+		AEE1D0A14456BA2352764E01E8AFBF74 /* HLCustomTransitions-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9827F9F005932B7148CE7992194335A1 /* HLCustomTransitions-dummy.m */; };
+		B26F1203004452198310F078A21B8C1F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		EB0A5F091BEAEF0255DC4840775A57E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0DEFE98C0BC9CDB9FEA846CCD6EF744C /* PBXContainerItemProxy */ = {
+		057D53D743E0442AAA5644C405CFB59A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 54D2455D3958D648BBBA8B6B9280E2D4;
-			remoteInfo = HLCustomTransitions;
-		};
-		B1831B6DA5623ECD450A2946C4168DA0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9276233B4214161C846423BA80D0ADE3;
+			remoteGlobalIDString = D79BAD8D3ED7DE494B50B7C50E66CD01;
 			remoteInfo = "Pods-HLCustomTransitions_Example";
+		};
+		B3D8E17466E6439CF91617D98BD4C304 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCE554DF8F013E5FECD620089AE9946F;
+			remoteInfo = HLCustomTransitions;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0213EA5E79EE8110DDEA313CF7EEE5DC /* Pods-HLCustomTransitions_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HLCustomTransitions_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		039CFB646017D0E97D1DC8A310F133A7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		0507BD7D1CBD8B95FBF4D7761AD0B576 /* Pods-HLCustomTransitions_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HLCustomTransitions_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		0DF97858E5790313D61CADBB8066EA1E /* Pods-HLCustomTransitions_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HLCustomTransitions_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		16F2267C04B1D7ED8FC38C7236F8B42D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		177ABADEDA838DB3F22B925D143230D5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1A1A5B3A6AA4670BFF490547FB5764C2 /* Pods-HLCustomTransitions_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HLCustomTransitions_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		1A201685C4853CA8A357104944B02A93 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		24E4FCB4FF27281F4476C0E4F273CFA7 /* Pods-HLCustomTransitions_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HLCustomTransitions_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		30546D5E1CEA94E61F463D9714294716 /* Pods-HLCustomTransitions_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HLCustomTransitions_Example.release.xcconfig"; sourceTree = "<group>"; };
-		309DBF7ECF2180CA3370084D2D87396A /* HLCustomTransitions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HLCustomTransitions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		35F5B20F6B22D9CCAFD7729CF005456D /* Pods-HLCustomTransitions_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HLCustomTransitions_Example-frameworks.sh"; sourceTree = "<group>"; };
-		4587A772E5B2A4AC3BAB795D2625ECA3 /* Pods-HLCustomTransitions_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HLCustomTransitions_Example-dummy.m"; sourceTree = "<group>"; };
-		49AED18A3D59721A32AB00497E2739EF /* HLCustomTransitions-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HLCustomTransitions-dummy.m"; sourceTree = "<group>"; };
-		50488938E742B68BA442FFA1303096D5 /* HLCustomTransitions-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HLCustomTransitions-prefix.pch"; sourceTree = "<group>"; };
-		533CFB06DA459AA321B834FB7A6AB81E /* Pods-HLCustomTransitions_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HLCustomTransitions_Tests-dummy.m"; sourceTree = "<group>"; };
-		549787897320F398EA5E1F19E8810C05 /* Pods-HLCustomTransitions_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HLCustomTransitions_Example-umbrella.h"; sourceTree = "<group>"; };
-		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6649E02FC851B6AA93AB657CFCB11315 /* Pods-HLCustomTransitions_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HLCustomTransitions_Example-resources.sh"; sourceTree = "<group>"; };
-		682F93818C1BC3F11533175E5F860EAB /* Pods-HLCustomTransitions_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HLCustomTransitions_Tests-resources.sh"; sourceTree = "<group>"; };
-		6E4BA5BB484E8271F2B11980078A11B3 /* HLCustomTransitions.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = HLCustomTransitions.podspec; sourceTree = "<group>"; };
-		6F777B4BB725E77479E890688C1FD84A /* Pods-HLCustomTransitions_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HLCustomTransitions_Example.modulemap"; sourceTree = "<group>"; };
-		8A8285C429BA83CE332C1224DF105666 /* HLCustomTransitions.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HLCustomTransitions.modulemap; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9F66978B897929B3756C97B0E3624413 /* HLCustomPresentationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HLCustomPresentationController.h; path = HLCustomTransitions/Classes/HLCustomPresentationController.h; sourceTree = "<group>"; };
-		BDE7D0A081AD55BC376512CD158F95DE /* Pods-HLCustomTransitions_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HLCustomTransitions_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		BEF9B6477184F0837B65F7D783B11D4D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C3614F508F3AC42B8E4D42039B02B9E6 /* Pods-HLCustomTransitions_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HLCustomTransitions_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		CDC4F0CF756ABCE77BEFEA99ADB1DCB7 /* Pods-HLCustomTransitions_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HLCustomTransitions_Tests.modulemap"; sourceTree = "<group>"; };
-		CE301F55AAAA8D366514FB87D188BAC1 /* HLCustomTransitions-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HLCustomTransitions-umbrella.h"; sourceTree = "<group>"; };
-		DD87ED3DDA082C68905187425B257ACF /* Pods-HLCustomTransitions_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HLCustomTransitions_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E11891DD118C8FDC8549518BCE595FE0 /* HLCustomPresentationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HLCustomPresentationController.m; path = HLCustomTransitions/Classes/HLCustomPresentationController.m; sourceTree = "<group>"; };
-		EAA9A585ED8A209C4CEF17118B983D40 /* HLCustomTransitions.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HLCustomTransitions.xcconfig; sourceTree = "<group>"; };
-		F5A91F9606E312FDE58F9ADC2C45D188 /* Pods-HLCustomTransitions_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HLCustomTransitions_Tests-umbrella.h"; sourceTree = "<group>"; };
-		FC755D04AED39E6EB7F72796847E4778 /* Pods_HLCustomTransitions_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HLCustomTransitions_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FDF1FE65EBF391DAB445AF594128551C /* Pods_HLCustomTransitions_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HLCustomTransitions_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C56D73F9ECF29E8B210C2DE766CB88D /* Pods-HLCustomTransitions_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HLCustomTransitions_Example-Info.plist"; sourceTree = "<group>"; };
+		11AA3ABCB784BC46DFF2C38F3EC325C0 /* HLIndicatorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HLIndicatorView.h; path = HLCustomTransitions/Classes/HLIndicatorView.h; sourceTree = "<group>"; };
+		171DA29B5D805164FE8B03CC559F76E6 /* HLCustomTransitions.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HLCustomTransitions.debug.xcconfig; sourceTree = "<group>"; };
+		205AFDEB6F853CBE4918827A448455A6 /* Pods-HLCustomTransitions_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HLCustomTransitions_Example.release.xcconfig"; sourceTree = "<group>"; };
+		23384D3DB512C8D986EBEEECFEC3A158 /* Pods_HLCustomTransitions_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HLCustomTransitions_Example.framework; path = "Pods-HLCustomTransitions_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E6093DFB79835495DA56B08BBAECE84 /* HLCustomTransitions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HLCustomTransitions.framework; path = HLCustomTransitions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F64C1C34FA1BC273BA6A67EBCC62670 /* HLCustomPresentationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HLCustomPresentationController.m; path = HLCustomTransitions/Classes/HLCustomPresentationController.m; sourceTree = "<group>"; };
+		30D3B80F7AC2552B1BB483E2939E8AF2 /* Pods-HLCustomTransitions_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HLCustomTransitions_Example-frameworks.sh"; sourceTree = "<group>"; };
+		370845D6A072F76D7040ECA9053FA533 /* Pods-HLCustomTransitions_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HLCustomTransitions_Tests.modulemap"; sourceTree = "<group>"; };
+		42D7842B2CA8A3433C85628A6A813D54 /* Pods-HLCustomTransitions_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HLCustomTransitions_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		44F0509CB29EB557317359E563CBD4B3 /* HLCustomTransitions-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HLCustomTransitions-Info.plist"; sourceTree = "<group>"; };
+		5BBB896B7170B30E095586F023B86BD9 /* Pods-HLCustomTransitions_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HLCustomTransitions_Example-umbrella.h"; sourceTree = "<group>"; };
+		5ECD999EE1C8BF10D716AC00DABCAC77 /* Pods-HLCustomTransitions_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HLCustomTransitions_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		6B4C8F62F4845B4267F88819E19CD37D /* Pods-HLCustomTransitions_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HLCustomTransitions_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		6BD52EE9DDC489117C52411EA3928F5E /* HLIndicatorView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HLIndicatorView.m; path = HLCustomTransitions/Classes/HLIndicatorView.m; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		74C3CF50D8C6E34E42D93E9EB2E414AD /* Pods-HLCustomTransitions_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HLCustomTransitions_Tests-umbrella.h"; sourceTree = "<group>"; };
+		9827F9F005932B7148CE7992194335A1 /* HLCustomTransitions-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HLCustomTransitions-dummy.m"; sourceTree = "<group>"; };
+		9A3E3BB5A477D83B1B0DE1C189F56EC2 /* Pods-HLCustomTransitions_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HLCustomTransitions_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		9AE4393A969DE64C6D8A1DF94835BAF9 /* HLCustomPresentationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HLCustomPresentationController.h; path = HLCustomTransitions/Classes/HLCustomPresentationController.h; sourceTree = "<group>"; };
+		9B047F1222342CA581A3E74C53E5EE29 /* Pods-HLCustomTransitions_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HLCustomTransitions_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0CAE91A7EEF92092022074F5C9BB636 /* Pods-HLCustomTransitions_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HLCustomTransitions_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		AC37769FD7CEC6BE2A0339BA85624A62 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		AEA498F6F06152EA22960DED2F3B3FF9 /* Pods_HLCustomTransitions_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HLCustomTransitions_Tests.framework; path = "Pods-HLCustomTransitions_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B269893D2849DCB6DD891DE0176F6736 /* HLCustomTransitions.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HLCustomTransitions.modulemap; sourceTree = "<group>"; };
+		B3C2BEA278494772917045D506942AFA /* HLCustomTransitions.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HLCustomTransitions.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BDAE18A9B01E7D9A7C3799B75E0E1DB6 /* HLCustomTransitions.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HLCustomTransitions.release.xcconfig; sourceTree = "<group>"; };
+		C7521DFB07D9CB3960FC2356B2BFDAE1 /* HLCustomTransitions-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HLCustomTransitions-umbrella.h"; sourceTree = "<group>"; };
+		CA2D765C6BB6B27E457D7FB16B0DEFC8 /* Pods-HLCustomTransitions_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HLCustomTransitions_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DB3DFA94E72D8B23C33386B8E1B7D253 /* Pods-HLCustomTransitions_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HLCustomTransitions_Example-dummy.m"; sourceTree = "<group>"; };
+		DE890704A044C760067B63C3B574A2A2 /* HLCustomTransitions-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HLCustomTransitions-prefix.pch"; sourceTree = "<group>"; };
+		E4B0FA233B78A8AB4E0104B29C417497 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		E8E95CC6A69EB636B37682BCC650313C /* Pods-HLCustomTransitions_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HLCustomTransitions_Example.modulemap"; sourceTree = "<group>"; };
+		F1AAC1E77E7747DB298E2F05B054EE87 /* Pods-HLCustomTransitions_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HLCustomTransitions_Tests-dummy.m"; sourceTree = "<group>"; };
+		FC1EC4CF6617F9B5B69016F024CD6760 /* Pods-HLCustomTransitions_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HLCustomTransitions_Tests-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1C8D2C13C22B970BBB7EA6A00A21CFD9 /* Frameworks */ = {
+		0688A8804A1977BDB330A95C8C0C65AF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C1C968E3B20C06432F7B6010BB431AB /* Foundation.framework in Frameworks */,
+				110ACA6C205F0A8574C7874A6A2DE325 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		66CFE52A44B936B07A64A8DD8EAAD9C7 /* Frameworks */ = {
+		07BBDB90CC61692F137E1736EF680D78 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D0DFBDC719601E3DB5B5EC4529D6B5A /* Foundation.framework in Frameworks */,
+				EB0A5F091BEAEF0255DC4840775A57E1 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ADFFDD9AF9A3ECA78806A1EE2152057C /* Frameworks */ = {
+		9AE076EF85DDB78054196F694FF7401E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99073143C6F592CF3DE411CA531451DA /* Foundation.framework in Frameworks */,
+				B26F1203004452198310F078A21B8C1F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		028160FAE83AAC447F10A5C465271B76 /* Pods-HLCustomTransitions_Example */ = {
+		01B5A6FE6F35B7AF040000C1E2D31AE1 /* HLCustomTransitions */ = {
 			isa = PBXGroup;
 			children = (
-				177ABADEDA838DB3F22B925D143230D5 /* Info.plist */,
-				6F777B4BB725E77479E890688C1FD84A /* Pods-HLCustomTransitions_Example.modulemap */,
-				DD87ED3DDA082C68905187425B257ACF /* Pods-HLCustomTransitions_Example-acknowledgements.markdown */,
-				BDE7D0A081AD55BC376512CD158F95DE /* Pods-HLCustomTransitions_Example-acknowledgements.plist */,
-				4587A772E5B2A4AC3BAB795D2625ECA3 /* Pods-HLCustomTransitions_Example-dummy.m */,
-				35F5B20F6B22D9CCAFD7729CF005456D /* Pods-HLCustomTransitions_Example-frameworks.sh */,
-				6649E02FC851B6AA93AB657CFCB11315 /* Pods-HLCustomTransitions_Example-resources.sh */,
-				549787897320F398EA5E1F19E8810C05 /* Pods-HLCustomTransitions_Example-umbrella.h */,
-				C3614F508F3AC42B8E4D42039B02B9E6 /* Pods-HLCustomTransitions_Example.debug.xcconfig */,
-				30546D5E1CEA94E61F463D9714294716 /* Pods-HLCustomTransitions_Example.release.xcconfig */,
-			);
-			name = "Pods-HLCustomTransitions_Example";
-			path = "Target Support Files/Pods-HLCustomTransitions_Example";
-			sourceTree = "<group>";
-		};
-		0D39F97562D94BC386205765DA55EEC7 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				8A8285C429BA83CE332C1224DF105666 /* HLCustomTransitions.modulemap */,
-				EAA9A585ED8A209C4CEF17118B983D40 /* HLCustomTransitions.xcconfig */,
-				49AED18A3D59721A32AB00497E2739EF /* HLCustomTransitions-dummy.m */,
-				50488938E742B68BA442FFA1303096D5 /* HLCustomTransitions-prefix.pch */,
-				CE301F55AAAA8D366514FB87D188BAC1 /* HLCustomTransitions-umbrella.h */,
-				BEF9B6477184F0837B65F7D783B11D4D /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/HLCustomTransitions";
-			sourceTree = "<group>";
-		};
-		1BD11144ECDA1A844D2B015676A41791 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				309DBF7ECF2180CA3370084D2D87396A /* HLCustomTransitions.framework */,
-				FDF1FE65EBF391DAB445AF594128551C /* Pods_HLCustomTransitions_Example.framework */,
-				FC755D04AED39E6EB7F72796847E4778 /* Pods_HLCustomTransitions_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		3165EF87BC6CBEF10D76CC026ACF1B3F /* HLCustomTransitions */ = {
-			isa = PBXGroup;
-			children = (
-				9F66978B897929B3756C97B0E3624413 /* HLCustomPresentationController.h */,
-				E11891DD118C8FDC8549518BCE595FE0 /* HLCustomPresentationController.m */,
-				32569E3B77254AC1FB512B735166C109 /* Pod */,
-				0D39F97562D94BC386205765DA55EEC7 /* Support Files */,
+				9AE4393A969DE64C6D8A1DF94835BAF9 /* HLCustomPresentationController.h */,
+				2F64C1C34FA1BC273BA6A67EBCC62670 /* HLCustomPresentationController.m */,
+				11AA3ABCB784BC46DFF2C38F3EC325C0 /* HLIndicatorView.h */,
+				6BD52EE9DDC489117C52411EA3928F5E /* HLIndicatorView.m */,
+				6A0EAA741A1AF022DF7ADFD6C87D4BDC /* Pod */,
+				C6E70A413F302587950B9ED985512B4A /* Support Files */,
 			);
 			name = HLCustomTransitions;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		32569E3B77254AC1FB512B735166C109 /* Pod */ = {
+		408464368785A8C5ACF9EAD0A0E52BF6 /* Pods-HLCustomTransitions_Example */ = {
 			isa = PBXGroup;
 			children = (
-				6E4BA5BB484E8271F2B11980078A11B3 /* HLCustomTransitions.podspec */,
-				039CFB646017D0E97D1DC8A310F133A7 /* LICENSE */,
-				16F2267C04B1D7ED8FC38C7236F8B42D /* README.md */,
+				E8E95CC6A69EB636B37682BCC650313C /* Pods-HLCustomTransitions_Example.modulemap */,
+				9B047F1222342CA581A3E74C53E5EE29 /* Pods-HLCustomTransitions_Example-acknowledgements.markdown */,
+				6B4C8F62F4845B4267F88819E19CD37D /* Pods-HLCustomTransitions_Example-acknowledgements.plist */,
+				DB3DFA94E72D8B23C33386B8E1B7D253 /* Pods-HLCustomTransitions_Example-dummy.m */,
+				30D3B80F7AC2552B1BB483E2939E8AF2 /* Pods-HLCustomTransitions_Example-frameworks.sh */,
+				0C56D73F9ECF29E8B210C2DE766CB88D /* Pods-HLCustomTransitions_Example-Info.plist */,
+				5BBB896B7170B30E095586F023B86BD9 /* Pods-HLCustomTransitions_Example-umbrella.h */,
+				9A3E3BB5A477D83B1B0DE1C189F56EC2 /* Pods-HLCustomTransitions_Example.debug.xcconfig */,
+				205AFDEB6F853CBE4918827A448455A6 /* Pods-HLCustomTransitions_Example.release.xcconfig */,
 			);
-			name = Pod;
+			name = "Pods-HLCustomTransitions_Example";
+			path = "Target Support Files/Pods-HLCustomTransitions_Example";
 			sourceTree = "<group>";
 		};
-		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		7DB346D0F39D3F0E887471402A8071AB = {
+		5C54A573ED08600B77A37EE03E4B1940 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				BD2DFFC06E9D0B207B9116BA1904286D /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				1BD11144ECDA1A844D2B015676A41791 /* Products */,
-				D5AD32AAA35533DFBC99EB5C6EBE9B38 /* Targets Support Files */,
+				01B5A6FE6F35B7AF040000C1E2D31AE1 /* HLCustomTransitions */,
 			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		AF479412B5B64A24B047427C24319E12 /* Pods-HLCustomTransitions_Tests */ = {
+		6A0EAA741A1AF022DF7ADFD6C87D4BDC /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				1A201685C4853CA8A357104944B02A93 /* Info.plist */,
-				CDC4F0CF756ABCE77BEFEA99ADB1DCB7 /* Pods-HLCustomTransitions_Tests.modulemap */,
-				24E4FCB4FF27281F4476C0E4F273CFA7 /* Pods-HLCustomTransitions_Tests-acknowledgements.markdown */,
-				1A1A5B3A6AA4670BFF490547FB5764C2 /* Pods-HLCustomTransitions_Tests-acknowledgements.plist */,
-				533CFB06DA459AA321B834FB7A6AB81E /* Pods-HLCustomTransitions_Tests-dummy.m */,
-				0213EA5E79EE8110DDEA313CF7EEE5DC /* Pods-HLCustomTransitions_Tests-frameworks.sh */,
-				682F93818C1BC3F11533175E5F860EAB /* Pods-HLCustomTransitions_Tests-resources.sh */,
-				F5A91F9606E312FDE58F9ADC2C45D188 /* Pods-HLCustomTransitions_Tests-umbrella.h */,
-				0507BD7D1CBD8B95FBF4D7761AD0B576 /* Pods-HLCustomTransitions_Tests.debug.xcconfig */,
-				0DF97858E5790313D61CADBB8066EA1E /* Pods-HLCustomTransitions_Tests.release.xcconfig */,
+				B3C2BEA278494772917045D506942AFA /* HLCustomTransitions.podspec */,
+				E4B0FA233B78A8AB4E0104B29C417497 /* LICENSE */,
+				AC37769FD7CEC6BE2A0339BA85624A62 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		7177D6387308CA3B60E7F2A4BD18EEC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E6093DFB79835495DA56B08BBAECE84 /* HLCustomTransitions.framework */,
+				23384D3DB512C8D986EBEEECFEC3A158 /* Pods_HLCustomTransitions_Example.framework */,
+				AEA498F6F06152EA22960DED2F3B3FF9 /* Pods_HLCustomTransitions_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B11AB0783A2080D4875A4205AC00DD69 /* Pods-HLCustomTransitions_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				370845D6A072F76D7040ECA9053FA533 /* Pods-HLCustomTransitions_Tests.modulemap */,
+				CA2D765C6BB6B27E457D7FB16B0DEFC8 /* Pods-HLCustomTransitions_Tests-acknowledgements.markdown */,
+				42D7842B2CA8A3433C85628A6A813D54 /* Pods-HLCustomTransitions_Tests-acknowledgements.plist */,
+				F1AAC1E77E7747DB298E2F05B054EE87 /* Pods-HLCustomTransitions_Tests-dummy.m */,
+				FC1EC4CF6617F9B5B69016F024CD6760 /* Pods-HLCustomTransitions_Tests-Info.plist */,
+				74C3CF50D8C6E34E42D93E9EB2E414AD /* Pods-HLCustomTransitions_Tests-umbrella.h */,
+				A0CAE91A7EEF92092022074F5C9BB636 /* Pods-HLCustomTransitions_Tests.debug.xcconfig */,
+				5ECD999EE1C8BF10D716AC00DABCAC77 /* Pods-HLCustomTransitions_Tests.release.xcconfig */,
 			);
 			name = "Pods-HLCustomTransitions_Tests";
 			path = "Target Support Files/Pods-HLCustomTransitions_Tests";
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		C6E70A413F302587950B9ED985512B4A /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+				B269893D2849DCB6DD891DE0176F6736 /* HLCustomTransitions.modulemap */,
+				9827F9F005932B7148CE7992194335A1 /* HLCustomTransitions-dummy.m */,
+				44F0509CB29EB557317359E563CBD4B3 /* HLCustomTransitions-Info.plist */,
+				DE890704A044C760067B63C3B574A2A2 /* HLCustomTransitions-prefix.pch */,
+				C7521DFB07D9CB3960FC2356B2BFDAE1 /* HLCustomTransitions-umbrella.h */,
+				171DA29B5D805164FE8B03CC559F76E6 /* HLCustomTransitions.debug.xcconfig */,
+				BDAE18A9B01E7D9A7C3799B75E0E1DB6 /* HLCustomTransitions.release.xcconfig */,
 			);
-			name = Frameworks;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HLCustomTransitions";
 			sourceTree = "<group>";
 		};
-		BD2DFFC06E9D0B207B9116BA1904286D /* Development Pods */ = {
+		CD77E5A1907E4C2758E84583CA201579 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				3165EF87BC6CBEF10D76CC026ACF1B3F /* HLCustomTransitions */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		D5AD32AAA35533DFBC99EB5C6EBE9B38 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				028160FAE83AAC447F10A5C465271B76 /* Pods-HLCustomTransitions_Example */,
-				AF479412B5B64A24B047427C24319E12 /* Pods-HLCustomTransitions_Tests */,
+				408464368785A8C5ACF9EAD0A0E52BF6 /* Pods-HLCustomTransitions_Example */,
+				B11AB0783A2080D4875A4205AC00DD69 /* Pods-HLCustomTransitions_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				5C54A573ED08600B77A37EE03E4B1940 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				7177D6387308CA3B60E7F2A4BD18EEC8 /* Products */,
+				CD77E5A1907E4C2758E84583CA201579 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0876ABB16FED91DDF4D90354979D669F /* Headers */ = {
+		385167808F61112F34FFA7566367A675 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0887D67C4E691EB748798E583ACEF33D /* Pods-HLCustomTransitions_Example-umbrella.h in Headers */,
+				2D3F9DD9BAD535CEAEDED0998555B526 /* HLCustomPresentationController.h in Headers */,
+				88EA767D4EEC2689F7EF801A19C6E1CF /* HLCustomTransitions-umbrella.h in Headers */,
+				10E30A6E8F0BC259DD9E9AAD6E4FC630 /* HLIndicatorView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		52FBDFAA7DB1453B5B702A57AF342A21 /* Headers */ = {
+		4739966FCB73799AAE3B44EEF14DF450 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEE02FA50DAED00B3D2405019C3AB7B5 /* HLCustomPresentationController.h in Headers */,
-				5C0D5BB6AC9E9045C1AA5D099796A414 /* HLCustomTransitions-umbrella.h in Headers */,
+				22B5F45B49557E17BA614F94B66A1721 /* Pods-HLCustomTransitions_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		54A8277996963C75719AA0FA462802DF /* Headers */ = {
+		7A9838CBA3A1F98CB297D8CF7E02D98D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2EBC579C6CF0823A565A9299E100AF0 /* Pods-HLCustomTransitions_Tests-umbrella.h in Headers */,
+				0F8DD49F5FDE91F823E7458356393A00 /* Pods-HLCustomTransitions_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		54D2455D3958D648BBBA8B6B9280E2D4 /* HLCustomTransitions */ = {
+		CCE554DF8F013E5FECD620089AE9946F /* HLCustomTransitions */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1E64D88DC24E14D952AB0A0AE22A5C55 /* Build configuration list for PBXNativeTarget "HLCustomTransitions" */;
+			buildConfigurationList = 2511A200360DA6E865D6D6C2185C2CCE /* Build configuration list for PBXNativeTarget "HLCustomTransitions" */;
 			buildPhases = (
-				52FBDFAA7DB1453B5B702A57AF342A21 /* Headers */,
-				6CA3896786285C16DC58A1506DC9412E /* Sources */,
-				66CFE52A44B936B07A64A8DD8EAAD9C7 /* Frameworks */,
-				03F60A0917994259D28999602EBCDA4D /* Resources */,
+				385167808F61112F34FFA7566367A675 /* Headers */,
+				BB629693288B14ED455EDF299236552A /* Sources */,
+				9AE076EF85DDB78054196F694FF7401E /* Frameworks */,
+				8DBFE51A06B21D840D8A7DCD4DB16C9C /* Resources */,
 			);
 			buildRules = (
 			);
@@ -276,91 +279,92 @@
 			);
 			name = HLCustomTransitions;
 			productName = HLCustomTransitions;
-			productReference = 309DBF7ECF2180CA3370084D2D87396A /* HLCustomTransitions.framework */;
+			productReference = 2E6093DFB79835495DA56B08BBAECE84 /* HLCustomTransitions.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		75F36E967240C3FFDBAFBCD18384AB39 /* Pods-HLCustomTransitions_Tests */ = {
+		D0C8C86539FB5F5743F02BC3764DEA4C /* Pods-HLCustomTransitions_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 83464BD75CEDA505A87D10EA2C333B0F /* Build configuration list for PBXNativeTarget "Pods-HLCustomTransitions_Tests" */;
+			buildConfigurationList = 8962F7E22B19D19DB05EA1E47002DDD5 /* Build configuration list for PBXNativeTarget "Pods-HLCustomTransitions_Tests" */;
 			buildPhases = (
-				54A8277996963C75719AA0FA462802DF /* Headers */,
-				1C3EC729CE81DE596C4BDEDA8AA1532B /* Sources */,
-				1C8D2C13C22B970BBB7EA6A00A21CFD9 /* Frameworks */,
-				D79ADCC5F7E2C119956D38A65C0F78FE /* Resources */,
+				7A9838CBA3A1F98CB297D8CF7E02D98D /* Headers */,
+				06E2D3654BED359BB83368B4ECC714A6 /* Sources */,
+				07BBDB90CC61692F137E1736EF680D78 /* Frameworks */,
+				675A346C93C8A78B6B0DC6A187A977C1 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				90FE65A39A03D04B2FD890148775AF65 /* PBXTargetDependency */,
+				1360CE7BACCC597AAC075D673A44446A /* PBXTargetDependency */,
 			);
 			name = "Pods-HLCustomTransitions_Tests";
 			productName = "Pods-HLCustomTransitions_Tests";
-			productReference = FC755D04AED39E6EB7F72796847E4778 /* Pods_HLCustomTransitions_Tests.framework */;
+			productReference = AEA498F6F06152EA22960DED2F3B3FF9 /* Pods_HLCustomTransitions_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		9276233B4214161C846423BA80D0ADE3 /* Pods-HLCustomTransitions_Example */ = {
+		D79BAD8D3ED7DE494B50B7C50E66CD01 /* Pods-HLCustomTransitions_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 75E4BDECCAB5D6805EA45F0E782FD92E /* Build configuration list for PBXNativeTarget "Pods-HLCustomTransitions_Example" */;
+			buildConfigurationList = 898C4939141725001D7406554E080E97 /* Build configuration list for PBXNativeTarget "Pods-HLCustomTransitions_Example" */;
 			buildPhases = (
-				0876ABB16FED91DDF4D90354979D669F /* Headers */,
-				04B46A3B8684730026FAACEF1EE21680 /* Sources */,
-				ADFFDD9AF9A3ECA78806A1EE2152057C /* Frameworks */,
-				F4768B1D0D5402E15B73E09017A0D272 /* Resources */,
+				4739966FCB73799AAE3B44EEF14DF450 /* Headers */,
+				C16249675C99361444D43416A03006F5 /* Sources */,
+				0688A8804A1977BDB330A95C8C0C65AF /* Frameworks */,
+				754DA7BD95675D00EE2EA386D3DB45E1 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5FAF7A0B41D826B2D166DA4BDA39ED65 /* PBXTargetDependency */,
+				D3358B7FB72EF19DD460881A3B0D52A5 /* PBXTargetDependency */,
 			);
 			name = "Pods-HLCustomTransitions_Example";
 			productName = "Pods-HLCustomTransitions_Example";
-			productReference = FDF1FE65EBF391DAB445AF594128551C /* Pods_HLCustomTransitions_Example.framework */;
+			productReference = 23384D3DB512C8D986EBEEECFEC3A158 /* Pods_HLCustomTransitions_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
 			};
-			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
-			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 1BD11144ECDA1A844D2B015676A41791 /* Products */;
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 7177D6387308CA3B60E7F2A4BD18EEC8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				54D2455D3958D648BBBA8B6B9280E2D4 /* HLCustomTransitions */,
-				9276233B4214161C846423BA80D0ADE3 /* Pods-HLCustomTransitions_Example */,
-				75F36E967240C3FFDBAFBCD18384AB39 /* Pods-HLCustomTransitions_Tests */,
+				CCE554DF8F013E5FECD620089AE9946F /* HLCustomTransitions */,
+				D79BAD8D3ED7DE494B50B7C50E66CD01 /* Pods-HLCustomTransitions_Example */,
+				D0C8C86539FB5F5743F02BC3764DEA4C /* Pods-HLCustomTransitions_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		03F60A0917994259D28999602EBCDA4D /* Resources */ = {
+		675A346C93C8A78B6B0DC6A187A977C1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D79ADCC5F7E2C119956D38A65C0F78FE /* Resources */ = {
+		754DA7BD95675D00EE2EA386D3DB45E1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F4768B1D0D5402E15B73E09017A0D272 /* Resources */ = {
+		8DBFE51A06B21D840D8A7DCD4DB16C9C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -370,53 +374,88 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		04B46A3B8684730026FAACEF1EE21680 /* Sources */ = {
+		06E2D3654BED359BB83368B4ECC714A6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC7EDD8385E4836AF12EE6A9DCF8972E /* Pods-HLCustomTransitions_Example-dummy.m in Sources */,
+				4E36F9E7FF81D79E64AF9FBF30DA3455 /* Pods-HLCustomTransitions_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1C3EC729CE81DE596C4BDEDA8AA1532B /* Sources */ = {
+		BB629693288B14ED455EDF299236552A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2423CD2378417BEA3CB85A0C9D6BBE07 /* Pods-HLCustomTransitions_Tests-dummy.m in Sources */,
+				548A69D6F611C0B856ABDB219B443174 /* HLCustomPresentationController.m in Sources */,
+				AEE1D0A14456BA2352764E01E8AFBF74 /* HLCustomTransitions-dummy.m in Sources */,
+				13043E3227EF1D19DC044CFB3B1E8246 /* HLIndicatorView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6CA3896786285C16DC58A1506DC9412E /* Sources */ = {
+		C16249675C99361444D43416A03006F5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E105F569F396683AB486AA1B7DC0AF1 /* HLCustomPresentationController.m in Sources */,
-				C0500C0FB9A78657D5B0C078A430834D /* HLCustomTransitions-dummy.m in Sources */,
+				8F8E622D67E5E71C77DC3D8E5FA1D75E /* Pods-HLCustomTransitions_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5FAF7A0B41D826B2D166DA4BDA39ED65 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = HLCustomTransitions;
-			target = 54D2455D3958D648BBBA8B6B9280E2D4 /* HLCustomTransitions */;
-			targetProxy = 0DEFE98C0BC9CDB9FEA846CCD6EF744C /* PBXContainerItemProxy */;
-		};
-		90FE65A39A03D04B2FD890148775AF65 /* PBXTargetDependency */ = {
+		1360CE7BACCC597AAC075D673A44446A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-HLCustomTransitions_Example";
-			target = 9276233B4214161C846423BA80D0ADE3 /* Pods-HLCustomTransitions_Example */;
-			targetProxy = B1831B6DA5623ECD450A2946C4168DA0 /* PBXContainerItemProxy */;
+			target = D79BAD8D3ED7DE494B50B7C50E66CD01 /* Pods-HLCustomTransitions_Example */;
+			targetProxy = 057D53D743E0442AAA5644C405CFB59A /* PBXContainerItemProxy */;
+		};
+		D3358B7FB72EF19DD460881A3B0D52A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HLCustomTransitions;
+			target = CCE554DF8F013E5FECD620089AE9946F /* HLCustomTransitions */;
+			targetProxy = B3D8E17466E6439CF91617D98BD4C304 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		56A05ADD3BABDA1B56D1F979845809B1 /* Release */ = {
+		16888A92C5560922AFE3D1F241B866B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 205AFDEB6F853CBE4918827A448455A6 /* Pods-HLCustomTransitions_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HLCustomTransitions_Example/Pods-HLCustomTransitions_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HLCustomTransitions_Example/Pods-HLCustomTransitions_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		431BA2B8298F0EE71735B9E0114E1955 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -439,14 +478,13 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -468,16 +506,18 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		592B326E981B9F2F98770A6B3F7275B8 /* Release */ = {
+		44EDBC50E1DAF4156CC9FC15AB100160 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 30546D5E1CEA94E61F463D9714294716 /* Pods-HLCustomTransitions_Example.release.xcconfig */;
+			baseConfigurationReference = 5ECD999EE1C8BF10D716AC00DABCAC77 /* Pods-HLCustomTransitions_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -486,7 +526,40 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-HLCustomTransitions_Example/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-HLCustomTransitions_Tests/Pods-HLCustomTransitions_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HLCustomTransitions_Tests/Pods-HLCustomTransitions_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4EA4E2C3E120A3BC4640E7AE3EE0DF88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A3E3BB5A477D83B1B0DE1C189F56EC2 /* Pods-HLCustomTransitions_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HLCustomTransitions_Example/Pods-HLCustomTransitions_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -500,144 +573,16 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		6ED28FBB167D2A64D5336771D5B28C92 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EAA9A585ED8A209C4CEF17118B983D40 /* HLCustomTransitions.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/HLCustomTransitions/HLCustomTransitions-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HLCustomTransitions/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/HLCustomTransitions/HLCustomTransitions.modulemap";
-				PRODUCT_MODULE_NAME = HLCustomTransitions;
-				PRODUCT_NAME = HLCustomTransitions;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		91889942C5A39D8984F4F8D31235F47F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EAA9A585ED8A209C4CEF17118B983D40 /* HLCustomTransitions.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/HLCustomTransitions/HLCustomTransitions-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HLCustomTransitions/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/HLCustomTransitions/HLCustomTransitions.modulemap";
-				PRODUCT_MODULE_NAME = HLCustomTransitions;
-				PRODUCT_NAME = HLCustomTransitions;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		9B05E0BD3C6AA116DC2C0CD340B5580F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0DF97858E5790313D61CADBB8066EA1E /* Pods-HLCustomTransitions_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-HLCustomTransitions_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-HLCustomTransitions_Tests/Pods-HLCustomTransitions_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		B32EAF23B62AC6CB8B28DB04252C9EED /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0507BD7D1CBD8B95FBF4D7761AD0B576 /* Pods-HLCustomTransitions_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-HLCustomTransitions_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-HLCustomTransitions_Tests/Pods-HLCustomTransitions_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		BEFDB93BF207328A04F1220475D02C3B /* Debug */ = {
+		79759604D78320E712558F49DF19AA9F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -660,14 +605,13 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -694,16 +638,16 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		D79129465ED9F1177EFF346FA4DDE161 /* Debug */ = {
+		9F67B17AFE71F6A7724DAA1ED9B27340 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C3614F508F3AC42B8E4D42039B02B9E6 /* Pods-HLCustomTransitions_Example.debug.xcconfig */;
+			baseConfigurationReference = 171DA29B5D805164FE8B03CC559F76E6 /* HLCustomTransitions.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -712,12 +656,72 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-HLCustomTransitions_Example/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/HLCustomTransitions/HLCustomTransitions-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HLCustomTransitions/HLCustomTransitions-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HLCustomTransitions/HLCustomTransitions.modulemap";
+				PRODUCT_MODULE_NAME = HLCustomTransitions;
+				PRODUCT_NAME = HLCustomTransitions;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D908BCD5EC6C44A7A59D4EF297E1C1CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDAE18A9B01E7D9A7C3799B75E0E1DB6 /* HLCustomTransitions.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HLCustomTransitions/HLCustomTransitions-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HLCustomTransitions/HLCustomTransitions-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HLCustomTransitions/HLCustomTransitions.modulemap";
+				PRODUCT_MODULE_NAME = HLCustomTransitions;
+				PRODUCT_NAME = HLCustomTransitions;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FC8AA42A5189F90720A913F56E16A41E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0CAE91A7EEF92092022074F5C9BB636 /* Pods-HLCustomTransitions_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HLCustomTransitions_Tests/Pods-HLCustomTransitions_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-HLCustomTransitions_Example/Pods-HLCustomTransitions_Example.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-HLCustomTransitions_Tests/Pods-HLCustomTransitions_Tests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -734,43 +738,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1E64D88DC24E14D952AB0A0AE22A5C55 /* Build configuration list for PBXNativeTarget "HLCustomTransitions" */ = {
+		2511A200360DA6E865D6D6C2185C2CCE /* Build configuration list for PBXNativeTarget "HLCustomTransitions" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				91889942C5A39D8984F4F8D31235F47F /* Debug */,
-				6ED28FBB167D2A64D5336771D5B28C92 /* Release */,
+				9F67B17AFE71F6A7724DAA1ED9B27340 /* Debug */,
+				D908BCD5EC6C44A7A59D4EF297E1C1CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BEFDB93BF207328A04F1220475D02C3B /* Debug */,
-				56A05ADD3BABDA1B56D1F979845809B1 /* Release */,
+				79759604D78320E712558F49DF19AA9F /* Debug */,
+				431BA2B8298F0EE71735B9E0114E1955 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		75E4BDECCAB5D6805EA45F0E782FD92E /* Build configuration list for PBXNativeTarget "Pods-HLCustomTransitions_Example" */ = {
+		8962F7E22B19D19DB05EA1E47002DDD5 /* Build configuration list for PBXNativeTarget "Pods-HLCustomTransitions_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D79129465ED9F1177EFF346FA4DDE161 /* Debug */,
-				592B326E981B9F2F98770A6B3F7275B8 /* Release */,
+				FC8AA42A5189F90720A913F56E16A41E /* Debug */,
+				44EDBC50E1DAF4156CC9FC15AB100160 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83464BD75CEDA505A87D10EA2C333B0F /* Build configuration list for PBXNativeTarget "Pods-HLCustomTransitions_Tests" */ = {
+		898C4939141725001D7406554E080E97 /* Build configuration list for PBXNativeTarget "Pods-HLCustomTransitions_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B32EAF23B62AC6CB8B28DB04252C9EED /* Debug */,
-				9B05E0BD3C6AA116DC2C0CD340B5580F /* Release */,
+				4EA4E2C3E120A3BC4640E7AE3EE0DF88 /* Debug */,
+				16888A92C5560922AFE3D1F241B866B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }

@@ -7,6 +7,7 @@
 //
 
 #import "HLCustomPresentationController.h"
+#import "HLIndicatorView.h"
 
 #define CORNER_RADIUS   16.f
 
@@ -41,6 +42,14 @@
     [dimmingView addGestureRecognizer:[[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(dimmingViewTapped:)]];
     self.dimmingView = dimmingView;
     [self.containerView addSubview:dimmingView];
+    
+    UIPanGestureRecognizer *pan = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(panGestureRecognizer:)];
+    [self.containerView addGestureRecognizer:pan];
+    
+    self.presentedViewController.view.layer.cornerRadius = 10.0f;
+    
+    HLIndicatorView *indicatorView = [HLIndicatorView indicatorView];
+    [self.presentedViewController.view addSubview:indicatorView];
     
     // Get the transition coordinator for the presentation so we can
     // fade in the dimmingView alongside the presentation animation.
@@ -228,4 +237,29 @@
     return fromViewOffSet;
 }
 
+- (void)panGestureRecognizer:(UIPanGestureRecognizer *)pan
+{
+    NSLog(@"panGestureRecognizer");
+    CGPoint point = [pan translationInView:pan.view];
+    NSLog(@"point - %f", point.y);
+    CGRect frame = self.presentedView.frame;
+    switch (pan.state) {
+        case UIGestureRecognizerStateBegan:
+        case UIGestureRecognizerStateChanged: {
+            frame.origin.y = point.y;
+            self.presentedView.frame = frame;
+        }
+            break;
+        case UIGestureRecognizerStateEnded:
+        case UIGestureRecognizerStateCancelled:
+        case UIGestureRecognizerStateFailed: {
+            [self.presentedViewController dismissViewControllerAnimated:YES completion:nil];
+        }
+            break;
+        default: break;
+    }
+}
+/*
+
+ */
 @end
