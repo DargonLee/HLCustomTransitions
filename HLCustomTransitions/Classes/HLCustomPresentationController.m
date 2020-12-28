@@ -244,8 +244,8 @@
 {
     NSLog(@"panGestureRecognizer");
     CGPoint point = [pan translationInView:pan.view];
-    NSLog(@"point - %f", point.y);
     CGRect frame = self.presentedView.frame;
+    NSLog(@"point - %f frame - %@", point.y, NSStringFromCGRect(frame));
     switch (pan.state) {
         case UIGestureRecognizerStateBegan: {
             originFrame = self.presentedView.frame;
@@ -261,7 +261,13 @@
         case UIGestureRecognizerStateEnded:
         case UIGestureRecognizerStateCancelled:
         case UIGestureRecognizerStateFailed: {
-            [self.presentedViewController dismissViewControllerAnimated:YES completion:nil];
+            if (point.y > 230) {
+                [self.presentedViewController dismissViewControllerAnimated:YES completion:nil];
+            }else {
+                [UIView animateWithDuration:0.25 delay:0 usingSpringWithDamping:0.5 initialSpringVelocity:5.0 options:UIViewAnimationOptionCurveEaseInOut animations:^{
+                    self.presentedView.frame = self->originFrame;
+                } completion:nil];
+            }
         }
             break;
         default: break;
