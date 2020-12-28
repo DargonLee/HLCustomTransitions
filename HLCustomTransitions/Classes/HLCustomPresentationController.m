@@ -46,13 +46,15 @@
     self.dimmingView = dimmingView;
     [self.containerView addSubview:dimmingView];
     
-    UIPanGestureRecognizer *pan = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(panGestureRecognizer:)];
-    [self.containerView addGestureRecognizer:pan];
-    
     self.presentedViewController.view.layer.cornerRadius = 10.0f;
     
-    HLIndicatorView *indicatorView = [HLIndicatorView indicatorView];
-    [self.presentedViewController.view addSubview:indicatorView];
+    if (self.direction == UIPresentationControllerDirectionFromBottom) {
+        UIPanGestureRecognizer *pan = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(panGestureRecognizer:)];
+        [self.containerView addGestureRecognizer:pan];
+        
+        HLIndicatorView *indicatorView = [HLIndicatorView indicatorView];
+        [self.presentedViewController.view addSubview:indicatorView];
+    }
     
     // Get the transition coordinator for the presentation so we can
     // fade in the dimmingView alongside the presentation animation.
